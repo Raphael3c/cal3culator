@@ -1,8 +1,17 @@
+import {Display} from './components/Display'
+import {Keyboard} from './components/Keyboard'
+
+import './styles/shape.css'
+import './global.css'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <div className="shape">
+        <Display value={'1230128198'}/>
+        <Keyboard/>
+      </div>
+    </>
   );
 }
 

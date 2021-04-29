@@ -1,0 +1,26 @@
+.display{
+  
+  height: 10%;
+  width: 90%;
+  border-radius: 6px;
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+
+  font-size: 1rem;
+
+  box-shadow: inset 0 0 1px 2px #353839;
+
+  top: 1.25rem;
+
+}
+
+.display span{
+  float: right;
+  position: relative;
+  top: 50%;
+
+  transform: translate(-20%, -50%);
+}
