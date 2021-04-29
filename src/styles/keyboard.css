@@ -8,4 +8,15 @@
   position: relative;
 
   top: 4rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container button{
+  font-size: 40px;
+}
+
+.operator{
+  color: orange;
 }
