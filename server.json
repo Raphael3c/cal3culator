@@ -1,24 +1,3 @@
 {
-  "buttons":[
-    {"id": "c", "className": "operator"},
-    {"id": "+/-", "className": "operator"},
-    {"id": "%", "className": "operator"},
-    {"id": "/", "className": "operator"},
-    {"id": "7", "className": "number"},
-    {"id": "8", "className": "number"},
-    {"id": "9", "className": "number"},
-    {"id": "x", "className": "operator"},
-    {"id": "4", "className": "number"},
-    {"id": "5", "className": "number"},
-    {"id": "6", "className": "number"},
-    {"id": "-", "className": "operator"},
-    {"id": "1", "className": "number"},
-    {"id": "2", "className": "number"},
-    {"id": "3", "className": "number"},
-    {"id": "+", "className": "operator"},
-    {"id": "0", "className": "number"},
-    {"id": ".", "className": "number"},
-    {"id": "", "className": "number"},
-    {"id": "=", "className": "operator"}
-  ]
+  
 }
