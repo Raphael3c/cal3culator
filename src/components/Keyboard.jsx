@@ -6,17 +6,22 @@ import {buttonsArray} from '../utils/buttons';
 
 export function Keyboard(){
 
-  const [buttons] = useState(buttonsArray)
+  const [buttons] = useState(buttonsArray) 
 
   const {value, setValue, calculadora} = useContext(ExpressionContext);
 
   function handle(value1){
     const newValue = value + value1;
+
+    if(value1 === 'c'){
+      setValue('');
+      return;
+    }
     setValue(newValue);
   }
 
   function calc(){
-    setValue(calculadora.multiplicacao(value));
+    setValue(calculadora.trata(value));
   }
 
   return (
